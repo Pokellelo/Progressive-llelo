@@ -1,4 +1,4 @@
-package com.example.examplemod;
+/*package com.example.examplemod;
 
 import org.slf4j.Logger;
 
@@ -134,3 +134,4 @@ public class ExampleMod
         }
     }
 }
+*/

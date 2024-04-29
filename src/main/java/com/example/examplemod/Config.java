@@ -1,4 +1,4 @@
-package com.example.examplemod;
+/*package com.example.examplemod;
 
 import java.util.List;
 import java.util.Set;
@@ -61,3 +61,4 @@ public class Config
                 .collect(Collectors.toSet());
     }
 }
+*/
