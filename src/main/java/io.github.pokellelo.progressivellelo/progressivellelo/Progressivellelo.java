@@ -1,5 +1,3 @@
-package com.progressivellelo;
-
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -41,4 +39,5 @@ public class Progressivellelo {
             .displayItems((parameters, output) -> {
             //   output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
+
 }
