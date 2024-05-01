@@ -1,3 +1,5 @@
+package io.github.pokellelo.progressivellelo;
+
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -9,11 +11,11 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.minecraft.network.chat.Component;
 
-@Mod(Progressivellelo.MODID)
+@Mod(Progressivellelo.MOD_ID)
 public class Progressivellelo {
     
-    public static final String MODID = "progressivellelo";
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
+    public static final String MOD_ID = "progressivellelo";
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
     // List of events: https://forge.gemwire.uk/wiki/Events
     public Progressivellelo(IEventBus bus) {
@@ -32,8 +34,8 @@ public class Progressivellelo {
     // private static void myLoot(GatherDataEvent event){
     // }
 
-     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register(MODID, () -> CreativeModeTab.builder()
-            .title(Component.translatable("itemGroup." + MODID)) //The language key for the title of your CreativeModeTab
+     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register(MOD_ID, () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup." + MOD_ID)) //The language key for the title of your CreativeModeTab
             .withTabsBefore(CreativeModeTabs.COMBAT)
             //.icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
