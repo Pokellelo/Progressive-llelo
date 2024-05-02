@@ -6,7 +6,6 @@ import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
-import net.neoforged.neoforge.common.loot;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModLootModifiers {
