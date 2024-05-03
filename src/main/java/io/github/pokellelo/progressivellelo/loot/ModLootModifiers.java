@@ -1,4 +1,4 @@
-package io.github.pokellelo.progressivellelo.loot;
+/*package io.github.pokellelo.progressivellelo.loot;
 
 import com.mojang.serialization.Codec;
 import io.github.pokellelo.progressivellelo.Progressivellelo;
@@ -19,4 +19,4 @@ public class ModLootModifiers {
     public static void register(IEventBus eventBus) {
         LOOT_MODIFIER_SERIALIZERS.register(eventBus);
     }
-}
+}*/ //CHECK IF THIS FILE IS NECCESARY
