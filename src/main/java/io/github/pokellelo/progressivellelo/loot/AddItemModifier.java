@@ -2,30 +2,22 @@ package io.github.pokellelo.progressivellelo.loot;
 
 import java.util.function.Supplier;
 
-import javax.annotation.Nonnull;
-
 import org.jetbrains.annotations.NotNull;
 
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.storage.loot.entries.LootItem;
 
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 
-import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
+//import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 
 import net.neoforged.neoforge.common.loot.LootModifier;
-import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
 import com.google.common.base.Suppliers;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 
 public class AddItemModifier extends LootModifier {
@@ -62,6 +54,7 @@ public class AddItemModifier extends LootModifier {
 
     @Override
     public MapCodec<AddItemModifier> codec() {
+        // Esto en los tutos regresaba IGlobalLootModifier
         return CODEC.get();
     }
 
