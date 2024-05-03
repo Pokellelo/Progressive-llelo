@@ -3,7 +3,7 @@ package io.github.pokellelo.progressivellelo.loot;
 import com.mojang.serialization.Codec;
 import io.github.pokellelo.progressivellelo.Progressivellelo;
 import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
-import net.minecraftforge.eventbus.api.IEventBus;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
